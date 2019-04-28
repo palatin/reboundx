@@ -32,7 +32,7 @@ Currently library supports:
 
 ### Simple Usage
 
-Library can be usage through view's extension:
+Library can be used through view's extension:
 ```
 val animator = view.rebound().scale()
 animator.start()
