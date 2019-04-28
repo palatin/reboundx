@@ -2,6 +2,8 @@
 
 Android wrapper around facebook rebound library https://github.com/facebook/rebound
 
+<img src="/present.gif" alt="sample" title="sample" />
+
 ### Installation
 
 Add it in your root build.gradle at the end of repositories:
