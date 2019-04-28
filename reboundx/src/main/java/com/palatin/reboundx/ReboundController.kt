@@ -11,12 +11,12 @@ open class ReboundController(view: View) {
     }
 
     protected val mView = WeakReference(view)
-    protected var startValue: Double = 0.0
-    protected var endValue: Double = 1.0
+    var startValue: Double = 0.0
+    var endValue: Double = 1.0
     protected var springConfig: SpringConfig = SpringConfig.defaultConfig
-    protected var listener: ReboundListener?  = null
-    protected var restSpeedThreshold: Double? = null
-    protected var restDisplacementThreshold: Double? = null
+    var listener: ReboundListener?  = null
+    var restSpeedThreshold: Double? = null
+    var restDisplacementThreshold: Double? = null
 
     companion object {
         private val springSystem: SpringSystem by lazy { SpringSystem.create() }
